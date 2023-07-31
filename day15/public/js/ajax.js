@@ -1,6 +1,6 @@
 const promise = new Promise((resolve, reject) => {
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://api.npoint.io/dc970ecbda38cf5b6652", true);
+  xhr.open("GET", "https://api.npoint.io/1d21167d7082ea6f9d5f", true);
   //   console.log(xhr);
   xhr.onload = () => {
     if (xhr.status === 200) {
